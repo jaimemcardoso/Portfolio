@@ -12,25 +12,25 @@ const Hero = () => {
     backgroundSize: 'cover',
     
 }}>
-        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 py-3">
             <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-                <h1 class="max-w-md text-7xl font-bold md:text-8xl text-left text-white">
+                <h1 class="max-w-md text-7xl font-bold md:text-8xl text-left text-white ">
                     <p class="text-[#3ac790]">Hey there!, I'm- </p>
                     Jaime Cardoso.
                 </h1>
-                <p class="font-medium max-w-sm text-gray text-left text-2xl md:mx-0">
+                <p class="font-medium max-w-sm text-gray text-left text-2xl md:mx-0 ">
              <span className="text-white">Software Engineer.</span> Computer Science senior with an interest in Front End development.
          </p>  
-           <p className="text-base">
+           <p className="text-base ">
            🎓 Currently a Computer Science Senior at The University Of Texas at Dallas. <br />
           🚀 Exploring opportunities and side projects.
 
            </p>
 
                 <div class="flex justify-center md:justify-start space-x-4">
-                <button button onClick={() => window.open("https://github.com/jaimemcardoso")} className="rounded bg-zinc-900 px-6 py-2 text-white font-bold inline-flex items-center hover:bg-zinc-700"> <FaGithub className="text-[#3ac790] mr-3 "/> Github</button>
-                <button button onClick={() => window.open("https://www.linkedin.com/in/jaime-cardoso-b42734164/")} className="rounded bg-zinc-900 px-6 py-2 text-white font-bold inline-flex items-center hover:bg-zinc-700"> <FaLinkedinIn className="text-[#3ac790] mr-3 "/> LinkedIn</button>
-                <button button onClick={() => window.open("https://drive.google.com/file/d/1JbYEc9_C1GeGlvE5yEtn7D5z16XbwRdw/view?usp=sharing")} className="rounded bg-zinc-900 px-6 py-2 text-white font-bold inline-flex items-center hover:bg-zinc-700"> <FaNewspaper className="text-[#3ac790] mr-3 "/> Resume</button>
+                <button button onClick={() => window.open("https://github.com/jaimemcardoso")} className="rounded bg-zinc-900 px-1 py-1 md:px-6 md:py-2 text-white font-bold inline-flex items-center hover:bg-zinc-700"> <FaGithub className="text-[#3ac790] mr-3 "/> Github</button>
+                <button button onClick={() => window.open("https://www.linkedin.com/in/jaime-cardoso-b42734164/")} className="rounded bg-zinc-900 px-1 py-1 md:px-6 md:py-2  text-white font-bold inline-flex items-center hover:bg-zinc-700"> <FaLinkedinIn className="text-[#3ac790] mr-3 "/> LinkedIn</button>
+                <button button onClick={() => window.open("https://drive.google.com/file/d/1JbYEc9_C1GeGlvE5yEtn7D5z16XbwRdw/view?usp=sharing")} className="rounded bg-zinc-900 px-1 py-1 md:px-6 md:py-2  text-white font-bold inline-flex items-center hover:bg-zinc-700"> <FaNewspaper className="text-[#3ac790] mr-3 "/> Resume</button>
 
                     </div>
             </div>
